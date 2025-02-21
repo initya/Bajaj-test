@@ -10,7 +10,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       const parsedInput = JSON.parse(input);
-      const res = await axios.post('https://bajaj-test-gray.vercel.app/bfhl', parsedInput);
+      const res = await axios.post('https://backend-bajaj-nine.vercel.app//bfhl', parsedInput);
       setResponse(res.data);
       setError('');
     } catch (err) {
